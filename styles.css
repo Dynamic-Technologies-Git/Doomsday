@@ -99,6 +99,7 @@ html,body
 }
 .hero{
     width:100vw;
+    height: auto;
     background: url("./images/hero.jpg");
     background-size: cover;
     padding:1rem;
