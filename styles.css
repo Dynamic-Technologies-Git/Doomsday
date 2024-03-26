@@ -153,6 +153,34 @@ html,body
     top: 150px;
     right:50px;
 }
+@media screen and (max-width: 768px){
+    .show__wrapper{
+        display:flex;
+        flex-direction:column;
+    }
+    .img__holder{
+        position:relative;
+        width:100vw;
+        padding:1rem;
+        margin:1rem;
+    }
+    .img1{
+        width:40vw;
+        hegiht:40vw;
+        border-radius:2rem;
+        position:absolute;
+        top: 10px;
+        right:10px;
+    }
+    .img2{
+        width:40vw;
+        hegiht:50vw;
+        border-radius:2rem;
+        position:absolute;
+        top: 150px;
+        right:50px;
+    }
+}
 .show__times{
     background:white;
     padding:1rem;
