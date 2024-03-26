@@ -102,6 +102,10 @@ html,body
     background: url("./images/hero.jpg");
     background-size: cover;
     padding:1rem;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
 /* footer section*/
 .Dtech__tag{
