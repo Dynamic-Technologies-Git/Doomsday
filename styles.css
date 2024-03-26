@@ -150,7 +150,7 @@ html,body
     hegiht:30vw;
     border-radius:2rem;
     position:absolute;
-    top: 150px;
+    top: 30vh;
     right:50px;
 }
 @media screen and (max-width: 768px){
