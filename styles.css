@@ -163,22 +163,23 @@ html,body
         width:100vw;
         padding:1rem;
         margin:1rem;
+        height: 100vh;
     }
     .img1{
-        width:40vw;
-        hegiht:40vw;
+        width:90vw;
+        hegiht:90vw;
         border-radius:2rem;
         position:absolute;
-        top: 10px;
-        right:10px;
+        top: 1vh;
+        right:10vw;
     }
     .img2{
-        width:40vw;
-        hegiht:50vw;
+        width:80vw;
+        hegiht:90vw;
         border-radius:2rem;
         position:absolute;
-        top: 150px;
-        right:50px;
+        top: 10vh;
+        right:20vw;
     }
 }
 .show__times{
