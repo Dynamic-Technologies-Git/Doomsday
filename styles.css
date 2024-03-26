@@ -128,7 +128,35 @@ html,body
     color: red;
 }
 
-
+.show__times{
+    background:white;
+    padding:1rem;
+}
+.show{
+    width: 50rem;
+    height: 15rem;
+    padding:1rem;
+    margin-bottom:2rem;
+    margin-top:1rem;
+    border-radius:2rem;
+    background:orange;
+}
+.show h1{
+    color:red;
+    font-size:2rem;
+}
+.show p{
+    color:white;
+    font-size:1rem;
+    margin-bottom:2rem;
+}
+.button{
+    padding:1rem 2rem;
+    background:rgb(65,105,225);
+    color:red;
+    font-size:1rem;
+    border-radius:2rem;
+}
 /* footer section*/
 .Dtech__tag{
     width: 50%;
