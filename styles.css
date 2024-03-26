@@ -98,7 +98,7 @@ html,body
 }
 .hero{
     background:url('./images/hero.jpg'), orange;
-    height: 90vh;
+    height: 100%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
