@@ -98,9 +98,9 @@ html,body
 }
 .hero{
     background:url('./images/hero.jpg'), orange;
-    height: 100%;
     background-position: center;
     background-size: contain;
+    width: 100vw;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
