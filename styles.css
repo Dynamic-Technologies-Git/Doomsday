@@ -145,7 +145,7 @@ html,body
 }
 .schedule__content{
     display: flex;
-    flex-direction: columns;
+    flex-direction: column;
     align-items:center;
     justify-content:center;
 }
