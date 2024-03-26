@@ -198,11 +198,13 @@ html,body
 .show h1{
     color:red;
     font-size:2rem;
+     -webkit-text-stroke: 1px black;
 }
 .show p{
     color:white;
     font-size:1rem;
     margin-bottom:2rem;
+     -webkit-text-stroke: 1px black;
 }
 .button{
     padding:1rem 2rem;
@@ -210,6 +212,34 @@ html,body
     color:red;
     font-size:1rem;
     border-radius:2rem;
+     -webkit-text-stroke: 1px black;
+}
+
+.video{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.video h1{
+    font-size: 2rem;
+    color:red;
+    -webkit-text-stroke: 1px black;
+}
+.tv__img{
+    width: 60vw;
+    height: 60vw;
+    padding:1rem;
+    margin:2rem 1rem;
+}
+@media screen and (max-width: 768px){
+    .tv__img{
+        width: 90vw;
+        height: 90vw;
+        padding:1rem;
+        margin:2rem 1rem;
+    }
 }
 /* footer section*/
 .Dtech__tag{
