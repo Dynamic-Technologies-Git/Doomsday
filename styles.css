@@ -97,7 +97,12 @@ html,body
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
-
+.hero{
+    width:100vw;
+    background: url("./images/hero.jpg");
+    background-size: cover;
+    padding:1rem;
+}
 /* footer section*/
 .Dtech__tag{
     width: 50%;
