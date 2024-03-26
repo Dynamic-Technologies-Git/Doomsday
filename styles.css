@@ -2,8 +2,8 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: "Black Han Sans", sans-serif;
-    font-weight: 1500px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 700px;
 }
 @keyframes Slide{
     from {
@@ -45,13 +45,13 @@ html,body
     width:80px;
 }
 .navbar__link{
-    color: rgb(65,105,225);
+    color: white;
     text-decoration: none;
     padding: 0rem 0.5rem;
-    cursor: none;
+    -webkit-text-stroke: 1px black;
 }
 .navbar__link:hover{
-    color: white;
+    color: rgb(65,105,225);
 }
 .open-menu, .close-menu{
     position: absolute;
@@ -92,6 +92,7 @@ html,body
         align-items: center;
         justify-content: center;
         text-align:center;
+        -webkit-text-stroke: 1px black;
     }
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
@@ -115,6 +116,7 @@ html,body
     color: orange;
     background: rgb(65,105,225);
     z-index:1;
+    -webkit-text-stroke: 1px black;
 }
 .footer__desc{
     padding: 0 2rem;
