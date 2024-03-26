@@ -23,8 +23,8 @@ html,body
 }
 /* navbar section */
 .navbar{
-    background: orange;
-    height: 60px;
+    background: linear-gradient(to bottom, red, orange));
+    height: 90px;
     padding: 0.5rem calc((50vw - 1600px) / 2);
     display: flex;
     justify-content: space-between;
@@ -40,8 +40,8 @@ html,body
     font-size: 1rem;
 }
 .logoimg{
-    height:50px;
-    width:88px;
+    height:80px;
+    width:80px;
 }
 .navbar__link{
     color: blue;
