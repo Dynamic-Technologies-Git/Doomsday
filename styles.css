@@ -23,14 +23,21 @@ html,body
     overflow-x: clip;
 }
 .popup{
+    z-index:0;
+    position: fixed;
+    top:0;
+    left: 0;
+    
+}
+.popup__content{
     background: black;
     height: 60px;
     padding: 0.5rem calc((50vw - 1600px) / 2);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index:3;
     width: 100%;
+    display: block;
 }
 .popup p{
     color: red;
