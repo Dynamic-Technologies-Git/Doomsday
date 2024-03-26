@@ -144,13 +144,14 @@ html,body
 .countdown__timer div{
     flex-basis: 100px;
     color:white;
-    margin: 0rem 1rem;
+    margin: 0rem 1vw;
 }
 .countdown__timer p{
     font-size: 60px;
     margin-bottom: -14px;
     color: red;
 }
+
 /* footer section*/
 .Dtech__tag{
     width: 50%;
