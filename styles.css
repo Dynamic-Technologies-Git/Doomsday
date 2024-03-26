@@ -97,12 +97,35 @@ html,body
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
+
 .hero{
     background-repeat: no-repeat;
     background-image: url("./images/hero.jpg");  
     background-size: contain; 
     height: 100vw;
     background-position: center;
+}
+
+.countdown{
+    position: relative;
+    height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: black;
+}
+.countdown__timer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.countdown__timer div{
+    flex-basis: 100px;
+}
+.countdown__timer p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    color: red;
 }
 /* footer section*/
 .Dtech__tag{
