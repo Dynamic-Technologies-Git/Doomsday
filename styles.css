@@ -128,6 +128,31 @@ html,body
     color: red;
 }
 
+.show__wrapper{
+    display:flex;
+}
+.img__holder{
+    position:relative;
+    width:45vw;
+    padding:1rem;
+    margin:1rem;
+}
+.img1{
+    width:20vw;
+    hegiht:20vw;
+    border-radius:2rem;
+    position:absolute;
+    top: 10px;
+    right:10px;
+}
+.img2{
+    width:20vw;
+    hegiht:30vw;
+    border-radius:2rem;
+    position:absolute;
+    top: 150px;
+    right:50px;
+}
 .show__times{
     background:white;
     padding:1rem;
