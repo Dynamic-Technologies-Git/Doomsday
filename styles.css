@@ -146,15 +146,12 @@ html,body
 .schedule__content{
     display: flex;
     flex-direction: columns;
-    align-items:right;
-    justify-content:right;
-}
-.shows-img{
-
+    align-items:center;
+    justify-content:center;
 }
 .show{
     background:orange;
-    border-radius:4px;
+    border-radius:2rem;
     padding:1rem;
     margin-bottom: 2rem;
     width:4rem;
