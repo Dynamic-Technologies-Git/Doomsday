@@ -120,6 +120,7 @@ html,body
 .countdown__timer div{
     flex-basis: 100px;
     color:white;
+    margin: 0rem 1rem;
 }
 .countdown__timer p{
     font-size: 60px;
