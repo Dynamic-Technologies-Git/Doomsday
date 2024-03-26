@@ -119,6 +119,7 @@ html,body
 }
 .countdown__timer div{
     flex-basis: 100px;
+    color:white;
 }
 .countdown__timer p{
     font-size: 60px;
