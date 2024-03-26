@@ -221,6 +221,8 @@ html,body
     align-items:center;
     justify-content:center;
     text-align:center;
+    margin:1rem;
+    border:solid 8px orange;
 }
 .video h1{
     font-size: 2rem;
@@ -231,7 +233,7 @@ html,body
     width: 60vw;
     height: 60vw;
     padding:1rem;
-    margin:2rem 1rem;
+    margin:1rem 1rem;
 }
 @media screen and (max-width: 768px){
     .tv__img{
