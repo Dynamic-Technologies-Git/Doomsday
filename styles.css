@@ -22,39 +22,6 @@ html,body
     padding: 0px;
     overflow-x: clip;
 }
-.popup{
-    z-index:100;
-    position: fixed;
-    top:90px;
-    left: 0;
-    
-}
-.popup__content{
-    background: black;
-    height: 60px;
-    padding: 0.5rem calc((50vw - 1600px) / 2);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    display: block;
-}
-.popup p{
-    color: red;
-    font-size: 1rem;
-    margin-left: 1rem;
-}
-.close-popup{
-    position: absolute;
-    color: red;
-    font-size: 1.5rem;
-    display: none;
-    top: 20px;
-    right: 20px;
-}
-#check1{display: none;}
-#check1:checked ~ .popup__content {display:none;}
-
 /* navbar section */
 .navbar{
     background: linear-gradient(to bottom, rgba(255,0,0,1), rgba(255,165,0, 1));
