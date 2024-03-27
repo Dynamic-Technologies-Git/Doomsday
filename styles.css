@@ -233,14 +233,13 @@ html,body
     width: 60vw;
     height: 60vw;
     padding:1rem;
-    margin:1rem 1rem;
 }
 @media screen and (max-width: 768px){
     .tv__img{
         width: 90vw;
         height: 90vw;
         padding:1rem;
-        margin:2rem 1rem;
+        margin:1rem 1rem;
     }
 }
 /* footer section*/
