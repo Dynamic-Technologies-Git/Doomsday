@@ -222,7 +222,8 @@ html,body
     justify-content:center;
     text-align:center;
     margin:1rem;
-    border:solid 8px orange;
+    border:solid 12px orange;
+    border-radius:2rem;
 }
 .video h1{
     font-size: 2rem;
